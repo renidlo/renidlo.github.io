@@ -1,0 +1,33 @@
+header {
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  background-color: cyan;
+  height: 30px;
+  margin: 10px;
+  width:120px;
+  display: block;
+}
+
+.bigger {
+  width:240px;
+}
+
+div {
+  display: flex;
+  height: 500px;
+}
+
+main {
+  background-color: yellow;
+  width: 75%;
+}
+
+aside {
+  background-color: lime;
+  width: 25%;
+}

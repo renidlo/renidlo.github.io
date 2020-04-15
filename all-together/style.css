@@ -1,0 +1,50 @@
+header {
+  width: 600px;
+  height: 100px;
+  background-color: aqua;
+}
+
+div {
+  display: flex;
+  width: 600px;
+  height: 1000px;
+}
+
+left-sidebar {
+  flex-grow: 1;
+  background-color: orange;
+}
+
+main {
+  flex-grow: 4;
+  background-color: red;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+black {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: relative;
+  top: 925px;
+  right: -310px;
+}
+
+right-sidebar {
+  flex-grow: 1;
+  background-color: purple;
+}
+
+footer {
+  width: 600px;
+  height: 100px;
+  background-color: blue;
+}
+
+stranka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

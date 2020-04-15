@@ -1,0 +1,30 @@
+div {
+  color: white;
+  border: 5px solid #4285f4;
+  width: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2', cursive;
+}
+
+p {
+  padding: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
+.North {
+  background-color: #E67676;
+}
+
+.East {
+  background-color: #F2F062;
+}
+
+.South {
+  background-color: #A9E6E6;
+}
+
+.West {
+  background-color: #7692E4;
+}

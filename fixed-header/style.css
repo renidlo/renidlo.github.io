@@ -1,0 +1,51 @@
+header {
+  background-color: purple;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  position: fixed;
+  top:0;
+  width: 100%;
+}
+
+a {
+  background-color: cyan;
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+}
+
+.bigger {
+  width: 200px;
+}
+
+.first {
+  margin-left:100px;
+}
+
+div {
+  display: flex;
+  height: 500px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+aside {
+  background-color: lime;
+  width: 25%;
+}
+
+main {
+  background-color: yellow;
+  width: 75%;
+}
+
+footer {
+  background-color: lightgrey;
+  height: 80px;
+  margin-left: 100px;
+  margin-right: 100px;
+}

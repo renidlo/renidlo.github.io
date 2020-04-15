@@ -1,0 +1,25 @@
+main {
+  font-family: 'Sen', sans-serif;
+  width:600px;
+}
+
+img {
+  width: 150px;
+}
+
+section {
+  width: 220px;
+  margin: 10px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  margin: 5px;
+  font-size: 16px;
+  color: blue;
+}
+
+div {
+  display: flex;
+}

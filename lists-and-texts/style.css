@@ -1,0 +1,28 @@
+main {
+  width: 450px;
+}
+
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: purple;
+}
+
+ol {
+  list-style-type: upper-roman;
+  color: pink;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.black {
+  color: black;
+}
+
+.underline {
+  text-decoration: underline;
+}
