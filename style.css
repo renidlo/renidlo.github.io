@@ -1,7 +1,16 @@
 p {
   color: red;
+  font-size: large;
+  font-weight: bold;
 }
 
 body {
   margin-left: 50px;
+  font-family: sans-serif;
+  background: url(images/img-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  line-height: 1.5em;
 }
