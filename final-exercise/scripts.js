@@ -47,7 +47,7 @@ var sourceData = [
     description: "When people ski, they move over snow or water on skis.",
   },
   {
-    photo: "./images/Snooker.jpg",
+    photo: "./images/snooker.jpg",
     title: "Snooker",
     description:
       "Snooker is a game involving balls on a large table. The players use a long stick to hit a white ball, and score points by knocking coloured balls into the pockets at the sides of the table.",
