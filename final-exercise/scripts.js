@@ -149,6 +149,8 @@ function displayPhoto(element) {
 function displayThumbnail(element, ind) {
   var xxx = `[data-index="` + ind + `"]`;
   $(xxx).css("background-image", `url(` + element.photo + `)`);
+  var yyy = `[data-hint="` + ind + `"]`;
+  $(yyy).text(element.title);
 }
 
 // function for displaying all thumbnails
