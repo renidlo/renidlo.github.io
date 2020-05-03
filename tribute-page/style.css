@@ -1,4 +1,4 @@
-main {
+#main {
   background-color: #ffe4a8;
   color: #412554;
   font-family: "Playfair Display", serif;
@@ -19,6 +19,7 @@ span {
 img {
   display: block;
   width: 90%;
+  max-width: 100%;
   margin-top: 5%;
   border: 2px solid #ffe4a8;
 }
