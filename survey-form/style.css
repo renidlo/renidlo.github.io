@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  text-shadow: 2px 2px black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: #f3f3f3;
+}
+
+#container {
+  width: 720px;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url("./images/survey-form-background.jpeg");
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  background-color: rgba(27, 27, 50, 0.8);
+  padding: 5%;
+}
+
+#submit {
+  background-color: #37af65;
+  color: #f3f3f3;
+  border: none;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
+
+#title,
+#description {
+  text-align: center;
+
+  width: 100%;
+  margin: 0px;
+}
+
+#title {
+  padding-top: 2%;
+}
+#description {
+  padding-bottom: 3%;
+  font-style: italic;
+}
+
+.form-group {
+  display: block;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.wide {
+  width: 100%;
+  padding: 1%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+select {
+  height: 2.5em;
+}
