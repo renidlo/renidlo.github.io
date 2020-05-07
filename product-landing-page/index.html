@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Modak|Oxygen&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <div id="img-container">
+        <img id="header-img" src="./images/trombone.svg" alt="trombone" />
+        <span id="company-name">Original Trombones</span>
+      </div>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#premium">Features</a
+        ><span>&emsp;&emsp;</span>
+        <a class="nav-link" href="#video">How It Works</a
+        ><span>&emsp;&emsp;</span>
+        <a class="nav-link" href="#boxes-container">Pricing</a>
+      </nav>
+    </header>
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label id="form-label" for="email"
+          >Handcrafted, home-made masterpieces</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+        <input type="submit" id="submit" value="GET STARTED" />
+      </form>
+      <div class="lines" id="premium">
+        <div class="line-img-container">
+          <img src="./images/premium.svg" alt="" />
+        </div>
+        <div class="line-text">
+          <h1>Premium Materials</h1>
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="lines" id="shipping">
+        <div class="line-img-container">
+          <img src="./images/shipping.svg" alt="" />
+        </div>
+        <div class="line-text">
+          <h1>Fast Shipping</h1>
+          <p>
+            We make sure you receive your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+      <div class="lines" id="quality">
+        <div class="line-img-container">
+          <img src="./images/quality.svg" alt="" />
+        </div>
+        <div class="line-text">
+          <h1>Quality Assurance</h1>
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+      <iframe
+        id="video"
+        width="420"
+        height="315"
+        src="https://www.youtube.com/embed//WmNnVIZBiQU?end=11&rel=0&controls=0"
+      >
+      </iframe>
+      <div id="boxes-container">
+        <div class="box">
+          <h2>TENOR TROMBONE</h2>
+          <p class="box-price">$600</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-text">Lorem ipsum dolor.</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-select">SELECT</p>
+        </div>
+        <div class="box">
+          <h2>BASS TROMBONE</h2>
+          <p class="box-price">$900</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-text">Lorem ipsum dolor.</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-select">SELECT</p>
+        </div>
+        <div class="box">
+          <h2>VALVE TROMBONE</h2>
+          <p class="box-price">$1200</p>
+          <p class="box-text">Plays similar to a Trumpet</p>
+          <p class="box-text">Great for Jazz Bands</p>
+          <p class="box-text">Lorem ipsum dolor.</p>
+          <p class="box-text">Lorem ipsum.</p>
+          <p class="box-select">SELECT</p>
+        </div>
+      </div>
+      <footer>
+        <nav id="nav-footer">
+          <a class="nav-footer-link">Privacy</a><span>&emsp;</span>
+          <a class="nav-footer-link">Terms</a><span>&emsp;</span>
+          <a class="nav-footer-link">Contact</a>
+        </nav>
+        <p class="footer-p">Copyright 2016, Original Trombones</p>
+      </footer>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

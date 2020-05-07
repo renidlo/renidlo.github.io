@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+  color: black;
+  background-color: beige;
+}
+
+#company-name {
+  font-family: "Modak", cursive;
+}
+
+main {
+  padding-top: 4em;
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  height: 5em;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: navajowhite;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+#img-container {
+  height: 2.5 em;
+  vertical-align: middle;
+}
+
+#header-img {
+  height: 2.5em;
+}
+
+#company-name {
+  font-size: xx-large;
+  position: relative;
+  left: -0.7em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#form-label,
+h1,
+.box-price {
+  font-size: x-large;
+}
+
+.box-price {
+  font-weight: bold;
+}
+
+#email {
+  width: 30%;
+  line-height: 2em;
+  padding: 3px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#submit {
+  height: 2.5em;
+  font-weight: bold;
+  border: none;
+  background-color: gold;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+.lines {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line-img-container {
+  width: 10%;
+}
+
+.line-img-container img {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.line-text {
+  width: 90%;
+  padding-left: 5%;
+}
+
+#video {
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+
+html {
+  scroll-padding-top: 5em; /* height of sticky header */
+}
+
+#boxes-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.box {
+  border: 1px solid black;
+  width: 30%;
+  text-align: center;
+}
+
+h2 {
+  font-size: larger;
+  width: 100%;
+  background-color: navajowhite;
+  line-height: 2.5em;
+  margin-top: 0px;
+}
+
+.box-select {
+  height: 2.5em;
+  font-weight: bold;
+  background-color: gold;
+  width: max-content;
+  padding: 0.5em;
+  margin: auto;
+  margin-bottom: 0.5em;
+}
+
+.box-select:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+}
+
+.nav-footer-link:hover {
+  cursor: pointer;
+}
+
+footer {
+  background-color: navajowhite;
+  margin-top: 3em;
+  text-align: end;
+}
+
+.footer-p {
+  font-style: italic;
+}
+
+.footer-p,
+.nav-footer-link {
+  line-height: 2em;
+  margin: 0px;
+  padding: 0 10px;
+}
