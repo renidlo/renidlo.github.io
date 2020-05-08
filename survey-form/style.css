@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-body {
+#container {
   font-family: "Poppins", sans-serif;
   font-size: 1em;
   font-weight: 400;
@@ -13,9 +13,6 @@ body {
   align-items: center;
   margin: auto;
   color: #f3f3f3;
-}
-
-#container {
   width: 720px;
 }
 
