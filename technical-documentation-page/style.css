@@ -83,7 +83,7 @@ code {
 @media (max-width: 600px) {
   #navbar {
     position: relative;
-    width: 115%;
+    width: 100%;
     overflow: initial;
   }
   #navbar header {
@@ -93,13 +93,15 @@ code {
     width: 100%;
     position: relative;
     background-color: white;
+    font-size: x-large;
   }
   #first {
     margin-top: 0px;
   }
 
   #nav-list li {
-    margin-left: 0%;
+    margin-left: -8%;
+    width: 108%;
   }
   #main-doc {
     width: 100%;
