@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 12vh; /* height of sticky header */
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: large;
@@ -31,9 +35,8 @@ a {
   padding-right: 2em;
 }
 
-.navbar-link {
-  padding-right: 1em;
-  padding-left: 1em;
+.navbar-link a {
+  padding: 1.15em;
 }
 
 .navbar-link:hover {
@@ -42,9 +45,9 @@ a {
 }
 
 #welcome-section {
-  margin-top: 11.9vh;
+  padding-top: 11.9vh;
   width: max-width;
-  height: 88.1vh;
+  height: 100vh;
   background-color: var(--welcome-bg-color);
   text-align: center;
   display: flex;
@@ -66,6 +69,8 @@ h2 {
 
 #projects {
   background-color: var(--main-bg-color);
+  padding-top: 6em;
+  padding-bottom: 6em;
 }
 
 #projects h1 {
@@ -82,12 +87,14 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 3em;
 }
 
 .project-tile {
-  width: 240px;
-  height: 400px;
+  width: 244px;
+  height: 404px;
   margin: 1em;
+  border: 2px solid var(--header-bg-color);
 }
 
 .project-img {
@@ -103,12 +110,12 @@ h2 {
   line-height: 80px;
 }
 
-.project-title:hover:before {
+.project-title a:hover:before {
   color: var(--header-bg-color);
   content: "<";
 }
 
-.project-title:hover:after {
+.project-title a:hover:after {
   color: var(--header-bg-color);
   content: "/>";
 }
@@ -135,4 +142,55 @@ h2 {
   background-image: url(./images/technical.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#contact {
+  width: max-width;
+  height: 88.1vh;
+  background-color: var(--welcome-bg-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#line {
+  width: 90%;
+  height: 2px;
+  background-color: var(--header-bg-color);
+  margin-top: 3em;
+}
+
+.contact-link {
+  fill: white;
+  line-height: 20px;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.contact-link a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact-link:hover {
+  position: relative;
+  top: 5px;
+}
+
+@media (max-width: 700px) {
+  #projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+  }
 }
